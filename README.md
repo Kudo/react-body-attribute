@@ -53,6 +53,8 @@ var HomePage = React.createClass({
   }
 });
 
+```
+
 Result:
 
 ```html
@@ -60,8 +62,6 @@ Result:
 ```
 
 Note: All attributes must be prefixed by `body`.
-
-```
 
 ## Server Usage
 
