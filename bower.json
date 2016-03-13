@@ -1,0 +1,23 @@
+{
+  "name": "react-body-attribute",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/thinkei/react-body-attribute",
+  "authors": [
+    "Tien Le <tien@thinkei.com>"
+  ],
+  "description": "Provides a declarative way to specify <body> attributes in a single-page app. This component can be used on server side as well.",
+  "keywords": [
+    "react",
+    "body",
+    "attributes"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

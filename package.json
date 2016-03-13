@@ -1,0 +1,39 @@
+{
+  "name": "react-body-attribute",
+  "version": "1.0.0",
+  "description": "A declarative, nested, stateful <body> attributes for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:watch": "npm run test -- --watch",
+    "lint": "jshint index.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinkei/react-body-attribute.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "react-component",
+    "body attributes",
+    "side effects",
+    "jsx"
+  ],
+  "author": "Tien Le <tien@thinkei.com> (http://github.com/tienle)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkei/react-body-attribute/issues"
+  },
+  "homepage": "https://github.com/thinkei/react-body-attribute",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "global": "^4.3.0",
+    "jshint": "^2.5.6",
+    "mocha": "^2.0.1",
+    "react": "^0.13.0"
+  },
+  "dependencies": {
+    "react-side-effect": "^1.0.2"
+  }
+}
