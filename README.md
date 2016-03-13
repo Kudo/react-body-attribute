@@ -1,5 +1,5 @@
-React Document Title
-====================
+React Body Attributes
+=====================
 
 Provides a declarative way to specify `body` attributes in a single-page app.
 This component can be used on server side as well.
