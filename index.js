@@ -23,7 +23,12 @@ function reducePropsToState(propsList) {
 function handleStateChangeOnClient(props) {
   for (var key in props) {
     if (props.hasOwnProperty(key)) {
-      document.body.setAttribute(key, props[key]);
+      if (key == 'Class' || key == 'class') {
+        var currentClasses = document.body.getAttribute(key);
+        document.body.setAttribute(key, currentClasses + ' ' + props[key]);
+      } else {
+        document.body.setAttribute(key, props[key]);
+      }
     }
   }
 }

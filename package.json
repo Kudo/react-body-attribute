@@ -1,6 +1,6 @@
 {
   "name": "react-body-attribute",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A declarative, nested, stateful <body> attributes for React",
   "main": "index.js",
   "scripts": {
