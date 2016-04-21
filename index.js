@@ -25,7 +25,11 @@ function handleStateChangeOnClient(props) {
     if (props.hasOwnProperty(key)) {
       if (key == 'Class' || key == 'class') {
         var currentClasses = document.body.getAttribute(key);
-        document.body.setAttribute(key, currentClasses + ' ' + props[key]);
+        if (!currentClasses) {
+            document.body.setAttribute(key, props[key]);
+        } else if (currentClasses.indexOf(props[key]) === -1)
+            // Simple dedupe to prevent handleStateChangeOnClient() called multiple time
+            document.body.setAttribute(key, currentClasses + ' ' + props[key]);
       } else {
         document.body.setAttribute(key, props[key]);
       }
